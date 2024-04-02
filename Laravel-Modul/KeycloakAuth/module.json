@@ -1,0 +1,11 @@
+{
+    "name": "KeycloakAuth",
+    "alias": "keycloakauth",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\KeycloakAuth\\App\\Providers\\KeycloakAuthServiceProvider"
+    ],
+    "files": []
+}

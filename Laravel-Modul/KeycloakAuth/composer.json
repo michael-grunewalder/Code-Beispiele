@@ -1,0 +1,31 @@
+{
+    "name": "dk/keycloakauth",
+    "description": "",
+    "authors": [
+        {
+            "name": "Michael Grünewälder",
+            "email": "m.gruenewaelder@dein-konfigurator.de"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\KeycloakAuth\\": "",
+            "Modules\\KeycloakAuth\\App\\": "app/",
+            "Modules\\KeycloakAuth\\Database\\Factories\\": "database/factories/",
+            "Modules\\KeycloakAuth\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Modules\\KeycloakAuth\\Tests\\": "tests/"
+        }
+    }
+}

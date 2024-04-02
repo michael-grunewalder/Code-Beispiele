@@ -1,0 +1,11 @@
+{
+    "name": "Warengruppen",
+    "alias": "warengruppen",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\Warengruppen\\App\\Providers\\WarengruppenServiceProvider"
+    ],
+    "files": []
+}
